@@ -1,0 +1,10 @@
+{
+  "name": "product-database",
+  "version": "1.0.0",
+  "description": "A demo project for development purposes",
+  "private": true,
+  "license": "UNLICENSED",
+  "dependencies": {
+    "typescript": "^5.2.2"
+  }
+}
