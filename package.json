@@ -6,5 +6,13 @@
   "license": "UNLICENSED",
   "dependencies": {
     "typescript": "^5.2.2"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "start:frontend": "npm run --workspace=frontend dev",
+    "start:backend": "npm run --workspace=backend start"
   }
 }
