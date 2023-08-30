@@ -13,6 +13,7 @@
   ],
   "scripts": {
     "start:frontend": "npm run --workspace=frontend dev",
-    "start:backend": "npm run --workspace=backend start"
+    "start:backend": "npm run --workspace=backend start",
+    "db:migrate": "npx --workspace=backend typeorm migration:run -d dist/data-source.js"
   }
 }

@@ -19,7 +19,6 @@ import { join } from 'path';
       type: 'sqlite',
       database: 'database.db',
       entities: [join(__dirname, '**', '*.entity.{ts,js}')],
-      synchronize: true,
     }),
     ProductModule,
   ],
